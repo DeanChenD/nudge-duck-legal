@@ -56,7 +56,7 @@ title: Privacy Policy / 隐私政策
 
 ## 联系我们
 
-邮箱:[deanchenmail@gmail.com](mailto:deanchenmail@gmail.com)
+邮箱:[nudgeduck@gmail.com](mailto:nudgeduck@gmail.com)
 
 ## 关于未成年人
 
@@ -112,7 +112,7 @@ We do not sell your data or use it for cross-app tracking.
 
 ## Contact
 
-Email: [deanchenmail@gmail.com](mailto:deanchenmail@gmail.com)
+Email: [nudgeduck@gmail.com](mailto:nudgeduck@gmail.com)
 
 ## Children
 
