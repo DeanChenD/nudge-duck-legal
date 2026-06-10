@@ -19,7 +19,7 @@ title: Privacy Policy / 隐私政策
 ## 我们收集的信息
 
 1. **你输入的内容**:你在主页填写的拖延事项,以及你点击"再小一点 / 换一个动作"时附带的当前小动作。这些内容会发送到我们的服务器,再转发给第三方 AI 供应商生成回复。
-2. **生成的小动作和历史记录**:AI 返回的内容以及你的状态(完成/太难/未完成)会先保存在本机。匿名使用时,历史记录不会同步到云端；绑定 Apple 后,新的历史记录会保存到你的账号下,用于跨设备同步。
+2. **生成的小动作和历史记录**:AI 返回的内容以及你的状态(完成/太难/未完成)会先保存在本机。匿名使用时,历史记录不会同步到云端；绑定 Apple 后,已有的本机历史会上传到你的账号,后续历史也会同步,用于跨设备访问。
 3. **匿名用户标识**:首次启动时我们会创建一个匿名 Supabase 会话(uuid),用于身份认证、免费额度和基础服务；它不用于把匿名历史记录同步到云端。
 4. **可选绑定信息**:如果你使用 Apple 登录,我们会保存对应的标识。
 5. **崩溃和性能信息**:如果应用崩溃,会发送崩溃日志(不含原始任务文本)到我们的监控系统。
@@ -31,7 +31,7 @@ title: Privacy Policy / 隐私政策
 ## 我们如何使用信息
 
 - 用于生成小动作建议
-- 用于在本机保存历史记录；绑定 Apple 后,用于在你的设备间同步新的历史记录
+- 用于在本机保存历史记录；绑定 Apple 后,迁移已有历史并在你的设备间同步所有历史记录
 - 用于改善产品体验和修复问题
 
 ## 第三方处理者
@@ -77,7 +77,7 @@ Thank you for using NudgeDuck (the "App"). This policy explains how we collect, 
 ## What we collect
 
 1. **What you type**: the procrastination item you enter, and the current tiny step when you tap "make it smaller" or "try another." This is sent to our server and forwarded to a third-party AI provider.
-2. **Generated tiny steps and history**: AI responses and your status (done / too hard / skipped) are saved on your device first. While you use the App anonymously, history is not synced to the cloud. After you bind Apple, new history is saved under your account for cross-device sync.
+2. **Generated tiny steps and history**: AI responses and your status (done / too hard / skipped) are saved on your device first. While you use the App anonymously, history is not synced to the cloud. After you bind Apple, existing local history is uploaded to your account and all future history is synced for cross-device access.
 3. **Anonymous user ID**: a Supabase anonymous session uuid created on first launch for authentication, free quota, and core service access. It is not used to sync anonymous history to the cloud.
 4. **Optional binding**: Apple ID, if you use Sign in with Apple.
 5. **Crash and performance data**: crash logs (excluding original task text) sent to our monitoring service.
@@ -89,7 +89,7 @@ Thank you for using NudgeDuck (the "App"). This policy explains how we collect, 
 ## How we use it
 
 - Generate tiny step suggestions
-- Save history on your device; after Apple binding, sync new history across your devices
+- Save history on your device; after Apple binding, migrate existing history and sync all history across your devices
 - Improve product experience and fix issues
 
 ## Third-party processors
