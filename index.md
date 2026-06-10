@@ -19,4 +19,4 @@ Legal documents for the iOS app **NudgeDuck (起步鸭)** — an action-starter 
 
 ## Contact / 联系
 
-Questions? Email **[deanchenmail@gmail.com](mailto:deanchenmail@gmail.com)** — 有任何问题,欢迎邮件联系。
+Questions? Email **[nudgeduck@gmail.com](mailto:nudgeduck@gmail.com)** — 有任何问题,欢迎邮件联系。

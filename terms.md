@@ -12,7 +12,7 @@ title: Terms of Service / 服务条款
 
 # 服务条款
 
-最后更新:2026-05-28
+最后更新:2026-06-10
 
 ## 关于本应用
 
@@ -27,6 +27,10 @@ NudgeDuck/起步鸭是一款行动启动器,通过 AI 把拖延事项转化为 2
 ## AI 内容免责
 
 AI 生成的内容仅供参考,可能不准确、不适合,或包含意外的偏差。请使用你自己的判断。
+
+## 订阅与购买
+
+本应用可能提供可选的 Pro 自动续期订阅。订阅由 Apple App Store 处理,并按你在购买页面看到的周期和价格续期。Pro 订阅会解锁更高或不受免费日额度限制的生成功能。你可以在 Apple ID 的订阅管理页面取消或管理订阅；取消后,已购买的 Pro 权益通常会保留到当前付费周期结束。退款、账单和取消订阅由 Apple 按其政策处理。删除 NudgeDuck 账号不会自动取消 Apple 管理的订阅。
 
 ## 服务变更
 
@@ -50,7 +54,7 @@ AI 生成的内容仅供参考,可能不准确、不适合,或包含意外的偏
 
 # Terms of Service
 
-Last updated: 2026-05-28
+Last updated: 2026-06-10
 
 ## About the App
 
@@ -65,6 +69,10 @@ NudgeDuck is an action-starter app that uses AI to turn procrastination items in
 ## AI content disclaimer
 
 AI-generated content is for reference only. It may be inaccurate, unsuitable, or biased. Use your own judgment.
+
+## Subscriptions and purchases
+
+The App may offer optional Pro auto-renewable subscriptions. Subscriptions are processed by Apple App Store and renew according to the period and price shown on the purchase screen. A Pro subscription unlocks higher or unlimited generation access compared with the free daily limit. You can cancel or manage subscriptions in your Apple ID subscription settings; after cancellation, purchased Pro access usually remains available until the end of the current paid period. Refunds, billing, and subscription cancellation are handled by Apple under Apple’s policies. Deleting your NudgeDuck account does not automatically cancel an Apple-managed subscription.
 
 ## Changes
 
