@@ -19,8 +19,8 @@ title: Privacy Policy / 隐私政策
 ## 我们收集的信息
 
 1. **你输入的内容**:你在主页填写的拖延事项,以及你点击"再小一点 / 换一个动作"时附带的当前小动作。这些内容会发送到我们的服务器,再转发给第三方 AI 供应商生成回复。
-2. **生成的小动作**:AI 返回的内容以及你的状态(完成/太难/未完成)会保存到你的账户下,用于历史记录。
-3. **匿名用户标识**:首次启动时我们会创建一个匿名账户(uuid),用于在你绑定 Apple 前保留你的历史记录。
+2. **生成的小动作和历史记录**:AI 返回的内容以及你的状态(完成/太难/未完成)会先保存在本机。匿名使用时,历史记录不会同步到云端；绑定 Apple 后,新的历史记录会保存到你的账号下,用于跨设备同步。
+3. **匿名用户标识**:首次启动时我们会创建一个匿名 Supabase 会话(uuid),用于身份认证、免费额度和基础服务；它不用于把匿名历史记录同步到云端。
 4. **可选绑定信息**:如果你使用 Apple 登录,我们会保存对应的标识。
 5. **崩溃和性能信息**:如果应用崩溃,会发送崩溃日志(不含原始任务文本)到我们的监控系统。
 6. **匿名使用统计**:我们记录你点击的功能(例如"开始倒计时"、"我完成了"),用于改善产品。这些统计不包含原始任务文本。
@@ -31,7 +31,7 @@ title: Privacy Policy / 隐私政策
 ## 我们如何使用信息
 
 - 用于生成小动作建议
-- 用于在你的设备间同步历史记录
+- 用于在本机保存历史记录；绑定 Apple 后,用于在你的设备间同步新的历史记录
 - 用于改善产品体验和修复问题
 
 ## 第三方处理者
@@ -46,14 +46,14 @@ title: Privacy Policy / 隐私政策
 
 ## 数据保留与删除
 
-- 你可以在「设置 → 账号 → 删除账号」中删除全部数据(已绑定账号才有此入口)。
-- 你可以在「设置 → 清除本地缓存」中清除本机数据。
+- 匿名使用时,历史记录仅保存在本机；你可以在「设置 → 清除本地缓存」中清除本机历史和缓存。
+- 绑定 Apple 后,你可以在「设置 → 账号 → 删除账号」中删除服务器端账号数据,同时清除本机缓存。
 - 反馈表单提交后,即使删除账号,反馈正文也会保留(已与你的标识脱钩),用于改善产品。
 
 ## 你的权利
 
-- 随时停止使用并删除账户
-- 免费主流程可以匿名使用；订阅、恢复购买和删除账号需要绑定 Apple
+- 随时停止使用本应用,并清除本机历史或删除已绑定账号
+- 免费主流程可以匿名使用；订阅和恢复购买需要绑定 Apple
 - 通过「设置 → 反馈与建议」联系我们
 
 ## 联系我们
@@ -77,8 +77,8 @@ Thank you for using NudgeDuck (the "App"). This policy explains how we collect, 
 ## What we collect
 
 1. **What you type**: the procrastination item you enter, and the current tiny step when you tap "make it smaller" or "try another." This is sent to our server and forwarded to a third-party AI provider.
-2. **Generated tiny steps**: AI responses and your status (done / too hard / skipped) are saved under your account for history.
-3. **Anonymous user ID**: a uuid created on first launch so we can keep your history before you bind Apple.
+2. **Generated tiny steps and history**: AI responses and your status (done / too hard / skipped) are saved on your device first. While you use the App anonymously, history is not synced to the cloud. After you bind Apple, new history is saved under your account for cross-device sync.
+3. **Anonymous user ID**: a Supabase anonymous session uuid created on first launch for authentication, free quota, and core service access. It is not used to sync anonymous history to the cloud.
 4. **Optional binding**: Apple ID, if you use Sign in with Apple.
 5. **Crash and performance data**: crash logs (excluding original task text) sent to our monitoring service.
 6. **Anonymous usage stats**: which features you tap (e.g., "start countdown", "I'm done") to improve the product. No original task text included.
@@ -89,7 +89,7 @@ Thank you for using NudgeDuck (the "App"). This policy explains how we collect, 
 ## How we use it
 
 - Generate tiny step suggestions
-- Sync history across your devices
+- Save history on your device; after Apple binding, sync new history across your devices
 - Improve product experience and fix issues
 
 ## Third-party processors
@@ -104,14 +104,14 @@ We do not sell your data or use it for cross-app tracking.
 
 ## Retention and deletion
 
-- Delete all data via Settings → Account → Delete Account (linked accounts only).
-- Clear local cache via Settings → Clear Local Cache.
+- While you use the App anonymously, history stays on your device. You can clear local history and cache via Settings → Clear Local Cache.
+- After Apple binding, you can delete server-side account data via Settings → Account → Delete Account, which also clears local cache.
 - Feedback content is retained (de-linked from your identifier) even after account deletion.
 
 ## Your rights
 
-- Stop using the App and delete your account at any time
-- Use the free core flow anonymously; subscriptions, purchase restore, and account deletion require Apple binding
+- Stop using the App at any time, and clear local history or delete a linked account
+- Use the free core flow anonymously; subscriptions and purchase restore require Apple binding
 - Reach us via Settings → Feedback
 
 ## Contact
